@@ -71,7 +71,8 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Developer', url='https://t.me/Alain_Champion')
+        InlineKeyboardButton('Developer', url='https://t.me/Alain_Champion'),
+        InlineKeyboardButton('Updates', url='t.me/PhantomBotz')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
