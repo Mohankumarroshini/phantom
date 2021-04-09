@@ -75,7 +75,7 @@ async def home(client, message):
         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/PhantomBotz')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
-  await tgprah.send_file(message.chat.id,"CAADBQAD2gEAAlS3iVemg-EmD7hUUwI")
+  await tgraph.send_file(message.chat.id,"CAADBQAD2gEAAlS3iVemg-EmD7hUUwI")
   await Tgraph.send_message(
         chat_id=message.chat.id,
         text="""<b>Hey there i am here,
