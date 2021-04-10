@@ -1,6 +1,16 @@
 import os
 from telegraph import upload_file
 import pyrogram
+TMP_DOWNLOAD_DIRECTORY = "./"
+from telethon import events
+import os
+telegraph = Telegraph()
+r = telegraph.create_account(short_name=babe)
+auth_url = r["auth_url"]
+
+from PIL import Image
+from datetime import datetime
+from telegraph import Telegraph, upload_file, exceptions
 from pyrogram import filters, Client
 from sample_config import Config
 from pyrogram.types import (
