@@ -15,9 +15,6 @@ from pyrogram.types import (
     InlineQueryResultArticle, InputTextMessageContent,
     InlineKeyboardMarkup, InlineKeyboardButton,
     CallbackQuery, InlineQuery)
-telegraph = Telegraph()
-r = telegraph.create_account(short_name=babe)
-auth_url = r["auth_url"]
 
 Tgraph = Client(
    "Telegra.ph Uploader",
