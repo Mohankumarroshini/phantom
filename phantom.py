@@ -121,7 +121,7 @@ async def button(Tgraph, update):
         
 @Tgraph.on_message(filters.command(["tm"]))
 async def home(client, message):
-      msg = await Tgraph.reply(message.chat.id,"`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
+      msg = await Tgraph.reply_text("`Tʀʏɪɴɢ Tᴏ Dᴏᴡɴʟᴏᴀᴅ`")
       userid = str(message.chat.id)
       img_path = (f"./DOWNLOADS/{userid}.jpg")
       img_path = await client.download_media(message=message, file_name=img_path)
