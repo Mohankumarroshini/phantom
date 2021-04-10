@@ -77,13 +77,13 @@ async def home(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Hey there i am here,
+        text="""<b>Hey there I am here,
         
-im a telegraph Uploader That Can Upload Photo, Video And Gif
+I'm a Telegraph Uploader that can upload photo video and gif.
         
-Simply send me photo, video or gif to upload to Telegra.ph
+Simply send me photo, video or gif to upload to telegra.ph
         
-Made With ♥️ By @Alain_Champion</b>""",
+Made with ❤️ by @PhantomBotz</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -99,10 +99,10 @@ async def help(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""There Is Nothing To Know More,
+        text="""**There Is Nothing To Know More,
         
 Just Send Me A Video/gif/photo Upto 5 mb.
-i'll upload it to telegra.ph and give you the direct link""",
+i'll upload it to telegra.ph and give you the direct link**""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
