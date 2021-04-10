@@ -1,6 +1,4 @@
-telegraph
-pyrogram
-TGcrypto
+
 future
 bs4
 telegraph
