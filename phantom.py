@@ -99,10 +99,10 @@ async def help(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""**There Is Nothing To Know More,
+        text="""<b>There Is Nothing To Know More,
         
 Just Send Me A Video/gif/photo Upto 5 mb.
-i'll upload it to telegra.ph and give you the direct link**""",
+i'll upload it to telegra.ph and give you the direct link</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
