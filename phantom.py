@@ -4,9 +4,7 @@ import pyrogram
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
 import os
-telegraph = Telegraph()
-r = telegraph.create_account(short_name=babe)
-auth_url = r["auth_url"]
+
 
 from PIL import Image
 from datetime import datetime
@@ -17,6 +15,9 @@ from pyrogram.types import (
     InlineQueryResultArticle, InputTextMessageContent,
     InlineKeyboardMarkup, InlineKeyboardButton,
     CallbackQuery, InlineQuery)
+telegraph = Telegraph()
+r = telegraph.create_account(short_name=babe)
+auth_url = r["auth_url"]
 
 Tgraph = Client(
    "Telegra.ph Uploader",
