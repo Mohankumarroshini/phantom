@@ -35,7 +35,7 @@ async def uploadphoto(client, message):
   except:
     await msg.edit_text("`Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ...`") 
   else:
-    await msg.edit_text(f"Uᴘʟᴏᴀᴅᴇᴅ ᴛᴏ [ᴛᴇʟᴇɢʀᴀᴘʜ](https://telegra.ph{tlink[0]})")     
+    await msg.edit_text(f"**Uᴘʟᴏᴀᴅᴇᴅ ᴛᴏ [ᴛᴇʟᴇɢʀᴀᴘʜ](https://telegra.ph{tlink[0]}) Sᴜᴄᴄᴇssғᴜʟʟʏ 🤟🤟**")     
     os.remove(img_path) 
 
 @Tgraph.on_message(filters.animation)
@@ -48,7 +48,7 @@ async def uploadgif(client, message):
     await msg.edit_text("`Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ.....`")
     try:
       tlink = upload_file(gif_path)
-      await msg.edit_text(f"Uᴘʟᴏᴀᴅᴇᴅ ᴛᴏ [ᴛᴇʟᴇɢʀᴀᴘʜ](https://telegra.ph{tlink[0]})")   
+      await msg.edit_text(f"**Uᴘʟᴏᴀᴅᴇᴅ ᴛᴏ [ᴛᴇʟᴇɢʀᴀᴘʜ](https://telegra.ph{tlink[0]}) Sᴜᴄᴄᴇssғᴜʟʟʏ ✌️✌️**")   
       os.remove(gif_path)   
     except:
       await msg.edit_text("`Sᴏᴍᴇᴛʜɪɴɢ ᴡ3ɴᴛ ᴡʀᴏɴɢ...`") 
@@ -65,7 +65,7 @@ async def uploadvid(client, message):
     await msg.edit_text("`Tʀʏɪɴɢ Tᴏ Uᴘʟᴏᴀᴅ.....`")
     try:
       tlink = upload_file(vid_path)
-      await msg.edit_text(f"Uᴘʟᴏᴀᴅᴇᴅ ᴛᴏ [ᴛᴇʟᴇɢʀᴀᴘʜ](https://telegra.ph{tlink[0]})")     
+      await msg.edit_text(f"**Uᴘʟᴏᴀᴅᴇᴅ ᴛᴏ [ᴛᴇʟᴇɢʀᴀᴘʜ](https://telegra.ph{tlink[0]}) Sᴜᴄᴄᴇssғᴜʟʟʏ 🤞🤞**")     
       os.remove(vid_path)   
     except:
       await msg.edit_text("`Sᴏᴍᴇᴛʜɪɴɢ ᴡ3ɴᴛ ᴡʀᴏɴɢ...`") 
@@ -81,6 +81,9 @@ async def home(client, message):
     [
         InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Alain_Champion'),
         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='t.me/PhantomBotz')
+    ],
+    [
+        InlineKeyboardButton('Rᴇᴘᴏ', url='https://GitHub.com/PhantomBotz/Telegraph_Bot')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
