@@ -103,8 +103,8 @@ Made with ❤️ by @kidbots</b>""",
 @Tgraph.on_message(filters.command(["help"]))
 async def help(client, message):
   buttons = [[
-        InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('нσмє', callback_data='home'),
+        InlineKeyboardButton('¢ℓσѕє', callback_data='close')
     ],
 ]
   reply_markup = InlineKeyboardMarkup(buttons)
