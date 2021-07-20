@@ -75,15 +75,15 @@ async def uploadvid(client, message):
 @Tgraph.on_message(filters.command(["start"]))
 async def home(client, message):
   buttons = [[
-        InlineKeyboardButton('нєℓρ', callback_data='help'),
-        InlineKeyboardButton('¢ℓσѕє', callback_data='close')
+        InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+        InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')
     ],
     [
-        InlineKeyboardButton('ѕυρρσятѕ', url='https://t.me/tzkid'),
-        InlineKeyboardButton('υρ∂αтєѕ', url='t.me/kidbots')
+        InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/tzkid'),
+        InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='t.me/kidbots')
     ],
     [
-        InlineKeyboardButton('кι∂ нυв', url='https://t.me/kidhub')
+        InlineKeyboardButton('ᴋɪᴅ ʜᴜʙ', url='https://t.me/kidhub')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
@@ -94,7 +94,7 @@ async def home(client, message):
         
 ꜱɪᴍᴘʟʏ ꜱᴇɴᴅ ᴍᴇ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴏʀ ɢɪꜰ ᴛᴏ telegra.ph
         
-ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @kidbots</b>""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ♥️ ʙʏ @kidbots</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
@@ -113,7 +113,7 @@ async def help(client, message):
         text="""<b>ᴛʜᴇʀᴇ ɪꜱ ɴᴏᴛʜɪɴɢ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ,
         
 ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ/ɢɪꜰ/ᴘʜᴏᴛᴏ ᴜᴘᴛᴏ 5 ᴍʙ.
-ɪ'ʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴀ ᴠɪᴅᴇᴏ/ɢɪꜰ/ᴘʜᴏᴛᴏ ᴜᴘᴛᴏ 5 ᴍʙ.ɪ'ʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ telegra.ph  ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴛʜᴇ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ</b>""",
+ɪ'ʟʟ ᴜᴘʟᴏᴀᴅ ɪᴛ ᴛᴏ telegra.ph  ᴀɴᴅ ɢɪᴠᴇ ʏᴏᴜ ᴛʜᴇ ᴅɪʀᴇᴄᴛ ʟɪɴᴋ</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
