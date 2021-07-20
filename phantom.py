@@ -88,13 +88,13 @@ async def home(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Hey there I am here,
+        text="""<b>ʜᴇʏ ᴛʜᴇʀᴇ ɪ ᴀᴍ @PhantomproBot 😜,
         
-I'm a Telegraph Uploader that can upload photo video and gif.
+ɪ'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅᴇʀ ᴛʜᴀᴛ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴘʜᴏᴛᴏ ᴠɪᴅᴇᴏ ᴀɴᴅ ɢɪꜰ..
         
-Simply send me photo, video or gif to upload to telegra.ph
+ꜱɪᴍᴘʟʏ ꜱᴇɴᴅ ᴍᴇ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴏʀ ɢɪꜰ ᴛᴏ telegra.ph
         
-Made with ❤️ by @kidbots</b>""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ @kidbots</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
