@@ -79,8 +79,8 @@ async def home(client, message):
         InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')
     ],
     [
-        InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/tzkid'),
-        InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='t.me/kidbots')
+        InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ', url='https://t.me/Mastro_support'),
+        InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='t.me/mastro_updates')
     ],
     [
         InlineKeyboardButton('ᴋɪᴅ ʜᴜʙ', url='https://t.me/kidhub')
@@ -88,13 +88,13 @@ async def home(client, message):
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>ʜᴇʏ ᴛʜᴇʀᴇ ɪ ᴀᴍ @PhantomproBot 😜,
+        text="""<b>ʜᴇʏ ᴛʜᴇʀᴇ ɪ ᴀᴍ @nora_graphbot 😜,
         
 ɪ'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅᴇʀ ᴛʜᴀᴛ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴘʜᴏᴛᴏ ᴠɪᴅᴇᴏ ᴀɴᴅ ɢɪꜰ..
         
 ꜱɪᴍᴘʟʏ ꜱᴇɴᴅ ᴍᴇ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴏʀ ɢɪꜰ ᴛᴏ telegra.ph
         
-ᴍᴀᴅᴇ ᴡɪᴛʜ ♥️ ʙʏ @kidbots</b>""",
+ᴍᴀᴅᴇ ᴡɪᴛʜ ♥️ ʙʏ @Mastro_support</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
