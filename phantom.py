@@ -83,12 +83,12 @@ async def home(client, message):
         InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='t.me/mastro_updates')
     ],
     [
-        InlineKeyboardButton('Oᴡɴᴇʀ', url='https://t.me/My_)
+        InlineKeyboardButton('Oᴡɴᴇʀ', url='https://t.me/My_dear_lightbright)
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>ʜᴇʏ ᴛʜᴇʀᴇ ɪ ᴀᴍ @nora_graphbot 😜,
+        text="""<b>ʜᴇʏ ᴛʜᴇʀᴇ ɪ ᴀᴍ @Nora_GraphBot 😜,
         
 ɪ'ᴍ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ ᴜᴘʟᴏᴀᴅᴇʀ ᴛʜᴀᴛ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴘʜᴏᴛᴏ ᴠɪᴅᴇᴏ ᴀɴᴅ ɢɪꜰ..
         
