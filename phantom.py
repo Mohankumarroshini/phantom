@@ -83,7 +83,7 @@ async def home(client, message):
         InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ', url='t.me/mastro_updates')
     ],
     [
-        InlineKeyboardButton('ᴋɪᴅ ʜᴜʙ', url='https://t.me/kidhub')
+        InlineKeyboardButton('Oᴡɴᴇʀ', url='https://t.me/My_)
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
